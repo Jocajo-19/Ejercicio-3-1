@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url(https://fonts.google.com/specimen/Ribeye+Marrow) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Lobster";
+    src: url(https://fonts.google.com/specimen/Lobster) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Just Another Hand";
+    src: url(https://fonts.google.com/specimen/Just+Another+Hand) format("truetype");
+}
+
+
+body {  
+    background-color: #ccac4d;
+}
+
+
+h1 {
+    font-family: "Ribeye Marrow";
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+p.introduccion {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 200%;
+    text-align: left;
+}
+
+
+cite {
+    text-decoration: underline;
+}
+
+
+p.Espanol{
+    margin: 0 0 3rem;
+    color: white;
+    font-family: "Just Another Hand";
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+p.latin {
+    margin: auto;
+    font-size: 2.5rem;
+}
+   
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Proyecto</title>
+    <link rel="stylesheet" href="Ejercicio 12.css">
+</head>
+<body>
+    <div class="form-container">
+        <h3>Datos personales</h3>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" value="Jesus">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" value="email@gmail.com">
+
+        <h3>Datos del proyecto</h3>
+        <label for="description">Breve descripción del proyecto:</label>
+        <textarea id="description" name="description">Hola</textarea>
+
+        <label>Estado actual del proyecto:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="estado" value="en-planteamiento"> En planteamiento</label>
+            <label><input type="radio" name="estado" value="en-planificacion" checked> En planificación</label>
+            <label><input type="radio" name="estado" value="en-ejecucion"> En ejecución</label>
+            <label><input type="radio" name="estado" value="ya-finalizado"> Ya finalizado</label>
+        </div>
+
+        <label for="presupuesto">Presupuesto aproximado (en €):</label>
+        <input type="number" id="presupuesto" name="presupuesto" value="500">
+
+        <button type="submit">Enviar</button>
+    </div>
+</body>
+</html>

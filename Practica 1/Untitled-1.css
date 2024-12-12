@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tabla */
+.tabla-discografia table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid #666;
+}
+
+.tabla-discografia th, .tabla-discografia td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.tabla-discografia th {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-discografia tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tabla-discografia tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Texto bajo la tabla */
+.tabla-discografia p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+}

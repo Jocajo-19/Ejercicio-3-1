@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de uso de etiquetas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #003366;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0056b3;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        blockquote {
+            font-style: italic;
+            color: #555;
+            padding-left: 10px;
+            margin: 10px 0;
+            background-color: #e9f7ff;
+            margin-left: 50px;
+        }
+        q {
+            color: #007bff;
+        }
+
+        .Wikiquote {
+            color: red;
+        }
+
+        .highlight {
+            color: #007bff;
+            color: red;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+        address {
+            font-style: normal;
+            background-color: #e9f7ff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .ltr {
+            direction: ltr;
+            color: green;
+        }
+        .rtl {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de uso de etiquetas de HTML</h1>
+
+    <section>
+        <h2>Blockquote y Q</h2>
+        <blockquote>
+            "La imaginación es más importante que el conocimiento."
+        </blockquote>
+        <p>Esta es una famosa cita de Albert Einstein, mencionada en <span class="Wikiquote">Wikiquote</span>:</p>
+        <p>Como dijo él: <q>La imaginación es más importante que el conocimiento</q>.</p>
+    </section>
+
+    <section>
+        <h2>Abbr</h2>
+        <p>Las siglas de <abbr title="HyperText Markup Language" class="highlight">HTML</abbr> significan Lenguaje de Marcado de Hipertexto.</p>
+    </section>
+
+    <section>
+        <h2>Address</h2>
+        <address> 
+            Puedes contactarnos en: <br>
+            <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
+            Calle Falsa 123, Ciudad, País
+        </address>
+    </section>
+
+    <section>
+        <h2>Bdo</h2>
+        <p class="ltr">Este texto se mostrará en orden normal: derecha a izquierda.</p>
+        <p class="rtl">Este texto se mostrará en orden invertido: adreiuqzi a ahcered.</p>
+    </section>
+</body>
+</html>
